@@ -1,0 +1,21 @@
+import numpy as np
+
+
+def propagate(particles, frame_height, frame_width, params):
+    num_particles = particles.shape[0]
+
+    # Generate noise
+    w_t = np.zeros(particles.shape)
+    w_t[:, 0:2] = np.random.normal(0, params["sigma_position"], size=(num_particles, 2))
+
+    if params["model"] == 1:
+     w_t[:, 2:4] = np.random.normal(0, params["sigma_velocity"], size=(num_particles, 2))
+
+    # Propagate particles
+    s_new = (params["A"] @ particles.T).T + w_t
+
+    # Clip to frame
+    s_new[:, 0] = np.clip(s_new[:, 0], a_min=0, a_max=frame_width-1)
+    s_new[:, 1] = np.clip(s_new[:, 1], a_min=0, a_max=frame_height-1)
+
+    return s_new
