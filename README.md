@@ -20,7 +20,7 @@ Simple machine learning classifiers for the MNIST dataset.
 ### Project 3: Bag of Words and VGG16
 Training a Bag of Words model to classify images, if they contain a car (positive sample) or not (negative sample). The following are examples of images, which the algorithm is able to differentiate between.
 
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex">
     <figure style="width: 45%; margin-right: 5px; margin-left: 5px;">
         <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%203%20-%20Object%20Detection%20&%20Image%20Classification/Results/negative_sample.png?raw=true" alt="image alt >" style="width: 100%;">
         <figcaption>Negative Sample</figcaption>
@@ -40,16 +40,17 @@ Implemented the [VGG16](https://arxiv.org/abs/1409.1556) model to classify image
 Using the Mean-shift algorithm applied to the RGB space, we can segment an image into different regions. The following images show the input and output of the algorithm. The algorithm was applied to the image of the ETH building.
 
 
-<div style="display: flex; justify-content: space-between;">
-    <figure style="width: 45%; margin-right: 5px; margin-left: 5px;">
+<div style="display: flex;">
+    <figure style="width: 50%; margin-right: 5px;">
         <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%204%20-%20Image%20Segmentation/Results/eth.jpg?raw=true" alt="image alt >" style="width: 100%;">
         <figcaption>Input</figcaption>
     </figure>
-    <figure style="width: 45%; margin-right: 5px; margin-left: 5px;">
+    <figure style="width: 50%; margin-left: 5px;">
         <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%204%20-%20Image%20Segmentation/Results/result_beta=3.0.png?raw=true" alt="image alt <" style="width: 100%;">
         <figcaption>Output</figcaption>
     </figure>
 </div>
+
 
 #### SegNet
 Implementation of a lite version of [SegNet](https://arxiv.org/abs/1511.00561). The images below show the input and output of the network. The network was trained on a modified version of the MNIST dataset. The model is supposed to detect each digit in an image, label it accordingly, and color code all the pixels of the image according to the label.
