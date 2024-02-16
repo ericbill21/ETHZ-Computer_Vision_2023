@@ -21,12 +21,12 @@ Simple machine learning classifiers for the MNIST dataset.
 Training a Bag of Words model to classify images, if they contain a car (positive sample) or not (negative sample). The following are examples of images, which the algorithm is able to differentiate between.
 
 <div style="display: flex; justify-content: space-between;">
-    <figure style="width: 50%; margin-right: 5px; margin-left: 5px;">
-        <img src="https://camo.githubusercontent.com/7a907a5aac851fcf7f832963ac522c7022f0828e9097c9acea39b72ad4305f26/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f642f64322f5376675f6578616d706c655f7371756172652e7376672f35313270782d5376675f6578616d706c655f7371756172652e7376672e706e67" alt="image alt >" style="width: 100%;">
+    <figure style="width: 45%; margin-right: 5px; margin-left: 5px;">
+        <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%203%20-%20Object%20Detection%20&%20Image%20Classification/Results/negative_sample.png?raw=true" alt="image alt >" style="width: 100%;">
         <figcaption>Negative Sample</figcaption>
     </figure>
-    <figure style="width: 50%; margin-right: 5px; margin-left: 5px;">
-        <img src="https://camo.githubusercontent.com/7a907a5aac851fcf7f832963ac522c7022f0828e9097c9acea39b72ad4305f26/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f642f64322f5376675f6578616d706c655f7371756172652e7376672f35313270782d5376675f6578616d706c655f7371756172652e7376672e706e67" alt="image alt <" style="width: 100%;">
+    <figure style="width: 45%; margin-right: 5px; margin-left: 5px;">
+        <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%203%20-%20Object%20Detection%20&%20Image%20Classification/Results/positive_sample.png?raw=true" alt="image alt <" style="width: 100%;">
         <figcaption>Positive Sample</figcaption>
     </figure>
 </div>
@@ -41,11 +41,11 @@ Using the Mean-shift algorithm applied to the RGB space, we can segment an image
 
 
 <div style="display: flex; justify-content: space-between;">
-    <figure style="width: 50%; margin-right: 5px; margin-left: 5px;">
+    <figure style="width: 45%; margin-right: 5px; margin-left: 5px;">
         <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%204%20-%20Image%20Segmentation/Results/eth.jpg?raw=true" alt="image alt >" style="width: 100%;">
         <figcaption>Input</figcaption>
     </figure>
-    <figure style="width: 50%; margin-right: 5px; margin-left: 5px;">
+    <figure style="width: 45%; margin-right: 5px; margin-left: 5px;">
         <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%204%20-%20Image%20Segmentation/Results/result_beta=3.0.png?raw=true" alt="image alt <" style="width: 100%;">
         <figcaption>Output</figcaption>
     </figure>
