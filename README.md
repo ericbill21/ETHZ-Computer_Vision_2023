@@ -20,7 +20,7 @@ Simple machine learning classifiers for the MNIST dataset.
 ### Project 3: Bag of Words and VGG16
 Training a Bag of Words model to classify images, if they contain a car (positive sample) or not (negative sample). The following are examples of images, which the algorithm is able to differentiate between.
 
-<div style="display: flex">
+<!-- <div style="display: flex">
     <figure style="width: 45%; margin-right: 5px; margin-left: 5px;">
         <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%203%20-%20Object%20Detection%20&%20Image%20Classification/Results/negative_sample.png?raw=true" alt="image alt >" style="width: 100%;">
         <figcaption>Negative Sample</figcaption>
@@ -29,6 +29,11 @@ Training a Bag of Words model to classify images, if they contain a car (positiv
         <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%203%20-%20Object%20Detection%20&%20Image%20Classification/Results/positive_sample.png?raw=true" alt="image alt <" style="width: 100%;">
         <figcaption>Positive Sample</figcaption>
     </figure>
+</div> -->
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%203%20-%20Object%20Detection%20&%20Image%20Classification/Results/negative_sample.png?raw=truee" style="width: 48%;">
+    <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%203%20-%20Object%20Detection%20&%20Image%20Classification/Results/positive_sample.png?raw=true" style="width: 48%;">
 </div>
 
 #### VGG16
@@ -40,7 +45,7 @@ Implemented the [VGG16](https://arxiv.org/abs/1409.1556) model to classify image
 Using the Mean-shift algorithm applied to the RGB space, we can segment an image into different regions. The following images show the input and output of the algorithm. The algorithm was applied to the image of the ETH building.
 
 
-<div style="display: flex;">
+<!-- <div style="display: flex;">
     <figure style="width: 50%; margin-right: 5px;">
         <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%204%20-%20Image%20Segmentation/Results/eth.jpg?raw=true" alt="image alt >" style="width: 100%;">
         <figcaption>Input</figcaption>
@@ -49,7 +54,13 @@ Using the Mean-shift algorithm applied to the RGB space, we can segment an image
         <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%204%20-%20Image%20Segmentation/Results/result_beta=3.0.png?raw=true" alt="image alt <" style="width: 100%;">
         <figcaption>Output</figcaption>
     </figure>
+</div> -->
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%204%20-%20Image%20Segmentation/Results/eth.jpg?raw=tru" style="width: 48%;">
+    <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%204%20-%20Image%20Segmentation/Results/result_beta=3.0.png?raw=true" style="width: 48%;">
 </div>
+
 
 
 #### SegNet
@@ -79,7 +90,7 @@ Using the Conditional Density Propagation (Condensation) algorithm to track an o
 Given a set of images and correspondences between them, we can reconstruct the 3D structure of the scene, by estimating the relative camera poses and triangulating the 3D points. The following images show the reconstruction of a scene using the SfM algorithm.
 
 Example of the input images:
-<div style="display: flex; justify-content: space-between;">
+<!-- <div style="display: flex; justify-content: space-between;">
     <figure style="width: 50%; margin-right: 5px; margin-left: 5px;">
         <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%206%20-%20Structure%20from%20Motion/Code/data/images/0002.png?raw=true" alt="image alt >" style="width: 100%;">
         <figcaption></figcaption>
@@ -88,16 +99,28 @@ Example of the input images:
         <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%206%20-%20Structure%20from%20Motion/Code/data/images/0008.png?raw=true;">
         <figcaption></figcaption>
     </figure>
+</div> -->
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%206%20-%20Structure%20from%20Motion/Code/data/images/0002.png?raw=true" style="width: 48%;">
+    <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%206%20-%20Structure%20from%20Motion/Code/data/images/0008.png?raw=true;" style="width: 48%;">
 </div>
 
 Resulting 3D reconstruction and camera poses:
-<div style="display: flex; justify-content: space-between;">
+<!-- <div style="display: flex; justify-content: space-between;">
     <figure style="width: 50%; margin-right: 5px; margin-left: 5px;">
         <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%206%20-%20Structure%20from%20Motion/Result/Figure_4.png?raw=true" alt="image alt >" style="width: 100%;">
     </figure>
     <figure style="width: 50%; margin-right: 5px; margin-left: 5px;">
         <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%206%20-%20Structure%20from%20Motion/Result/Figure_5.png?raw=true" alt="image alt <" style="width: 100%;">
     </figure>
+</div> -->
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%206%20-%20Structure%20from%20Motion/Result/Figure_4.png?raw=true" style="width: 48%;">
+    <img src="https://github.com/ericbill21/ETHZ-Computer_Vision_2023/blob/main/Project%206%20-%20Structure%20from%20Motion/Result/Figure_5.png?raw=true" style="width: 48%;">
 </div>
+
+
+
 
 Each camera is depicted as a blue box, and each 3D point as a black dot.
